@@ -1,0 +1,19 @@
+{
+	"name": "create-slug",
+	"version": "1.0.0",
+	"description": "A Simple Slug Creator",
+	"main": "index.js",
+	"scripts": {
+		"start": "node .",
+		"dev": "nodemon ."
+	},
+	"keywords": [],
+	"licence": "MIT",
+	"author": "Arshath",
+	"dependencies": {
+		"dotenv": "10.0.0",
+		"express": "4.17.1",
+		"mongoose": "5.12.13",
+		"nanoid": "3.1.23"
+	}
+}
