@@ -1,3 +1,3 @@
-# SLUG CREATOR
+# Shorten
 
-A simple Slug Creator
+A simple URL Shortener

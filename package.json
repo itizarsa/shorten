@@ -4,13 +4,15 @@
 	"description": "A Simple Slug Creator",
 	"main": "index.js",
 	"scripts": {
-		"start": "node .",
-		"dev": "nodemon ."
+		"start": "NODE_ENV=production node .",
+		"dev": "NODE_ENV=development nodemon ."
 	},
 	"keywords": [],
 	"licence": "MIT",
 	"author": "Arshath",
 	"dependencies": {
+		"chalk": "4.1.1",
+		"cors": "2.8.5",
 		"dotenv": "10.0.0",
 		"express": "4.17.1",
 		"mongoose": "5.12.13",
